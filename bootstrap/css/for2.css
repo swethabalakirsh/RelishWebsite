@@ -1,0 +1,143 @@
+#for1{
+    height: 50vh;
+    /* border:4px solid red; */
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/10/19/40/berry-4047072__340.jpg");
+    background-size: cover;
+    
+}
+#for3{
+    /* border:5px solid darkslategrey; */
+    display: flex;
+   
+}
+
+.a9{
+    /* border:3px solid darkgoldenrod; */
+    width: 85px;
+    height: 47px;
+     justify-content: end;
+     word-spacing: 2px;
+     font-size: 30px;
+     color:white;
+     text-decoration: none;
+    
+}
+.a9:hover{
+
+}
+#a8{
+    margin-right: auto;
+}
+
+/* ------------result------------- */
+#div2{
+    border: 1px solid black;
+    background-color:rgb(61, 79, 168);
+    text-align: center;
+    padding-top: 320px;
+    height: 400px;
+    position: absolute;
+    top: 50vh;
+    display: none;
+     
+    width: 1500px;
+   
+}
+
+
+/* ---------------end------------------ */
+/* ------------icon------------ */
+#icon{
+    position: relative;
+    top:10px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+/* ------------------end of nav-------------- */
+
+
+#for2{
+    height: 125vh;
+    /* border:4px solid red; */
+    background-color:rgb(250, 245, 245);
+    
+}
+
+/* #div2{
+    border: 1px solid black;
+    background-color:orange;
+    text-align: center;
+    padding-top: 320px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 1500px;
+} */
+
+/* #cake1{
+    align-items: center;
+    width: 55vh;
+    height: 6vh;
+    border-radius: 6px 6px 6px 6px;
+} */
+ /* ---------------------------a design------------ */
+ /* .bun{
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgb(178, 69, 69);
+    color: white;
+   }
+   .a1{
+    color:antiquewhite;
+    text-decoration: none;
+   }
+
+
+   h3,h4,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+   }
+ */
+
+
+ #order_placed{
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 550px;
+    height: 200px;
+    width: 450px;
+    text-align:  center;
+  background-color: rgb(179, 186, 184);
+  display: none;
+ }
+
+
+
+ #foo1{
+    height: 55vh;
+    /* border:4px solid red; */
+    background-color: black;
+    color: beige;
+     }
+  
+
+#for2{
+    position: relative;
+}
+
+   
+
+
+li > a{
+    color:white;
+    text-decoration: none;
+    
+}

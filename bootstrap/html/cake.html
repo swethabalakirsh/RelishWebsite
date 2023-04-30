@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REliSH</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cake.css">
+</head>
+
+<body>
+                 <!-- ------------------------------------headerpart---------------------------- -->
+                   <!--======navbar------------------->
+  <nav class="navbar navbar-expand-lg navbar-light py-4  " >
+    <div class="container idd">
+      <a href="./cake.html" class="navbar-brand d-flex justify-content-between align-item-center order-lg-0">
+        <i class="fa-solid fa-cake-candles" id="icon"></i>
+        <span class="text-uppercase fw-lightter ms-2"> REliSH </span>
+      </a>
+
+      <div class="order-lg-2">
+        <button type="button" class="btn position-relative">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">1</span>
+        </button>
+
+        <button type="button" class="btn position-relative">
+          <i class="fa-solid fa-heart" id="heart1"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary" id="heart">199</span>
+        </button>
+
+        <button type="button" class="btn position-relative" id="search">
+          <i class="fa-solid fa-search"></i>
+          
+        </button>
+        <input type="search"placeholder="Search" width="130px" id="visiblepart" style="position: absolute; top:9vh; left: 165vh; display: none;
+        padding: 2px; border-radius: 12px; border:1px solid black;">
+       <a href="../html/cake.html" style="position: absolute; top:9vh; display: none; left:189vh; text-decoration: none;" id="visiblepart1">X</a>
+     </div>
+
+     <button class="navbar-toggler border-0"type="button"
+      data-bs-toggle="collapse" data-bs-target="#naVMENU">
+        <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse order-lg-1" id="naVMENU">
+      <ul class="navbar-nav mx-auto text-center text-dark">
+        <li class="nav-item px-2 py-2">
+          <a  class="nav-link text-uppercase text-dark" href="../html/cake.html">
+           home
+          </a>
+        </li>
+
+        
+
+        <li class="nav-item px-2 py-2">
+          <a  class="nav-link   text-uppercase text-dark" href="#con1dfc">
+          Product
+          </a>
+        </li>
+
+        <li class="nav-item px-2 py-2">
+          <a  class="nav-link  text-uppercase text-dark" href="#feedback">
+           feedback
+          </a>
+        </li>
+
+        <li class="nav-item px-2 py-2">
+          <a  class="nav-link  text-uppercase text-dark" href="#" id="log-innpa" >
+           log-in
+          </a>
+        </li>
+        
+     
+        <li class="nav-item  px-2 py-2 border-0">
+          <a  class="nav-link  text-uppercase text-dark" href="#forcontactlink">
+          contact
+          </a>
+        </li>
+
+      </ul>
+     </div>
+
+
+
+    </div>
+
+</nav>
+
+  </div>
+    
+
+
+
+   <!-- <input type="search"placeholder="search orders" width="120px" style="position: relative; top:12vh;">
+   -->
+
+
+  <!-- --------------login------------------------------- -->
+
+  <div class="card mb-3" style="width:540px;position: absolute; top:11vh;left:90vh;  height: 35vh; display: none;" id="reesultpart">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://cdn.pixabay.com/photo/2015/03/03/08/55/portrait-657116__340.jpg" class="img-fluid rounded-start" alt="..." >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">log-in</h5>
+          <hr>
+          <button type="button" class="btn bg-dark text-white text-center" style="position: absolute;right:0px;"><a href="../html/cake.html">skip</a></button>
+         
+          <p class="card-text"><form action="
+            #">Sign into your account</form>
+          <br>
+        <input type="mail" placeholder="Enter your mail ID">
+      <br>
+      <br>
+    <input type="password" placeholder="Password">
+  
+  <style>
+    /* #reesultpart{
+      border:12px solid red;
+      background-color: #a42323;
+      
+    } */
+    #loginpage{
+      background-color: black;
+      color:white;
+      border:2px solid black;
+      
+    }
+    #loginpage:hover{
+       background-color: white;
+       color:black;
+  
+    }
+  </style>
+  <button type="button" class="btn " id="loginpage"> Login</button></p> 
+            
+        
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+    <!-- ------------------ end of-headerpart--------------- -->
+
+
+  <div class="container-fluid" id="conatmer2">
+   
+    
+    <h1 class="display-4 container text-center"  id="sh1part">A party without cake is just a meeting.</h1>
+      <button type="button" class="btn bg-dark  offer1"  >
+       
+         <a href="#con1dfc" id="offer5">->OFFERS</a>
+       
+      </button>
+
+      
+  </div>
+  
+    <!-- ----------------------next ---------------- -->
+    <div class="container-fluid  coloured">
+  <div class="container" id="part2">
+      
+
+    <!-- ------------------------carousel----------------------------------- -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://imgcdn.floweraura.com/cake_homepage_fa_desktop_1.jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning">Today-offer</h5>
+            <p>Bring on the cake!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://imgcdn.floweraura.com/cake_homepage_fa_desktop%20(1).jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning">yesterday-offers</h5>
+            <p>Think inside the cake box.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.cakesquarechennaionline.com/wp-content/uploads/2022/07/BANNER_compressed.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning">Top Offers</h5>
+            <p>A birthday can never have too much cake.</p>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    <!-- </div> -->
+
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- -----------------------atlast conatiner ------------------------- -->
+  </div>
+    
+    </div>
+         <!-- -------------------over ---------------------------- -->
+          
+           
+           
+  <div class="container-fluid px-5  py-5" id="con1dfc">
+    <a href=".." style="text-decoration: none; color:red;"> <h1 class="display-5 text-center"><marquee width="500px" height="auto" behavior="alternate">  
+      <marquee behavior="alternate">  
+        Here the offer's   <i class="fa-brands fa-buffer text-warning"></i>
+      </marquee>  
+      </marquee>  
+     </h1></a>
+  
+     
+ 
+ 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100" id="part1">
+            <img src="https://cdn.pixabay.com/photo/2015/03/23/02/24/cake-685470__340.jpg
+            " class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Strawberry Cake</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               <del style="color:black">1kg RS:₹ 500.0 </del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹400.0 </em>
+                <br>
+              <button class="bun"><a href="../html/for1.html" class="a1" id="a2"> Add to Cart</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"id="part1">
+            <img src="https://cdn.pixabay.com/photo/2016/09/19/23/31/cakes-1681543__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vanila Cake</h5>
+              <p class="card-text">The vanilla cake is prepared using vanilla extract derived from vanilla beans. The sweet flavor and fragrance of vanilla extract make it a popular ingredient in several desserts.</p>
+               <del style="color:black">1kg RS:₹ 700.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹500.0</em>
+               <br>
+               <br>
+               <button class="bun"><a href="../html/for2.html" class="a1"> Add to Cart</a></button> 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"id="part1">
+            <img src="https://cdn.pixabay.com/photo/2017/03/07/04/40/swede-cakes-2123191__340.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Cake</h5>
+              <p class="card-text">Chocolate cake, in particular, is a favourite pick by many people. The main ingredient of the chocolate in this cake is coco which helps our brain release endorphins or the “feel good” chemical. </p>
+               <del style="color:black">1kg RS:₹ 500.0</del><br>
+               
+               <em  style="color:blue"> offer Price: ₹450.0</em>
+               <br>
+               
+              <button class="bun"><a href="../html/choco.html" class="a1">  Add to Cart</a> 
+               </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100"id="part1">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/17/49/cupcakes-1283247__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> CupCake</h5>
+              <p class="card-text">They have an amazing history, are easy to customize and even easier to share, make great gifts, and they hold wonderful memories. Of course, it also doesn't hurt that they're delicious!</p>
+              <br>
+              <del style="color:black">1kg RS:₹ 450.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹350.0</em>
+              
+               <br>
+               <br>
+               <br>
+              <button class="bun"> 
+                
+                <a href="../html/cupcake.html" class="a1"> Add to Cart</a>
+               </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card h-100"id="part1">
+              <img src="https://cdn.pixabay.com/photo/2016/03/04/12/56/wedding-1236013__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gugelhupf and Cake</h5>
+                <p class="card-text">A Gugelhupf is a cake traditionally baked in a distinctive ring pan, similar to Bundt cake, but leavened with baker's yeast. Gugelhupf. Kouglof.png.</p>
+                 <br>
+                <del style="color:black">1kg RS:₹ 750.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹650.0</em>
+               <br>
+               <br>
+               <br>
+              
+               <br>
+                <button class="bun"><a href="../html/Gugelhupf.html" class="a1"> Add to Cart</a></button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100"id="part1">
+              <img src="https://cdn.pixabay.com/photo/2017/11/27/03/38/pie-2980431__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plums Crumble Cake</h5>
+                <p class="card-text">A classic plum cake is usually made with a mix of fruits and nuts infused in alcoholic beverages like rum, wine or brandy for days, or even months, much before the festival. This is the secret behind a slightly bitter taste, as the dry fruits are soaked in alcohol for months, opened only closer to the time of baking</p>
+                <del style="color:black">1kg RS:₹ 850.0</del><br>
+               
+               <em  style="color:blue">  1kg offer Price: ₹750.0</em>
+               <br>
+               <br>
+                <button class="bun"><a href="../html/Plums.html" class="a1"> Add to Cart</a></button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col">
+            <div class="card h-100" id="part1">
+              <img src="https://cdn.pixabay.com/photo/2019/01/21/15/06/blueberries-3946230_960_720.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bluebarries Cake</h5>
+                <p class="card-text">It's a soft tender cake that tastes of wild blueberries, filled with a blueberry compote and wrapped in a sweet, blueberry buttercream.</p>
+                
+                <br>
+                
+                <br>
+                
+                <br>
+                <del style="color:black">1kg RS:₹ 950.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹790.0</em>
+               <br>
+               <br>
+                <button class="bun"><a href="../html/bluebarries.html" class="a1"> Add to Cart</a></button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col">
+            <div class="card h-100" id="part1">
+              <img src="https://cdn.pixabay.com/photo/2019/02/25/19/22/cakes-4020342__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Browine chocolate Cake</h5>
+                <p class="card-text">They have a fudge-like texture while chewy brownies are dense and have an elastic texture that makes them easy to chew. Brownies are always more likeable than cakes and even cookies. On one hand where cakes are softer and fluffier, brownies are crunchier and have denser texture.</p>
+               <del style="color:black">1kg RS:₹ 550.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹440.0</em>
+               <br>
+               <br>
+                <button class="bun"><a href="../html/Browine.html" class="a1"> Add to Cart</a></button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col">
+            <div class="card h-100" id="part1">
+              <img src="https://cdn.pixabay.com/photo/2016/11/29/11/38/cake-1869227__340.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CheesesCake</h5>
+                <p class="card-text"> Cheesecake is creamy and yummy and can please some of the most discerning taste buds. The cheesecake has evolved with so many recipes over the years adopting ingredients from family traditions, or by adding fillings or flavors making it a personalized treat.</p>
+                <del style="color:black">1kg RS:₹ 999.0</del><br>
+               
+               <em  style="color:blue"> 1kg offer Price: ₹870.0</em>
+               <br>
+               <br>
+                <button class="bun"><a href="../html/CheesesCake.html" class="a1"> Add to Cart</a></button>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+    
+      
+        
+      <!-- -------------------------end-div , strat -footer ----------------- --> 
+          
+         <!-- -------------------------------about ------------------------ -->
+             
+         
+
+ <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/30/10/31/plums-3641851__340.jpg");
+    background-size: cover;
+    width: auto;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  </style>
+
+
+ <div class="grid-container" id="feedback">
+  <div class="grid-item">
+    <h1 class="display-6 text-success text-center"> TopSearches </h1>
+    <p class="lead p12 "> 
+      <a href="" class="apart">Cakes and prices   |</a>
+  <a href="" class="apart">Cakes fav   |</a>
+  <a href="" class="apart"> cakes for birthday  |</a>
+  <a href="" class="apart">Cake for girls   |</a>
+  <a href="" class="apart"> Cake for boys   |</a>  <br>
+  <a href="" class="apart"> Cake online  |</a> </p>
+  </div>
+  <div class="grid-item"> 
+    <h4 class="display-6 text-primary">yesterday</h4>
+
+    <p class="lead p12">
+      <a href="" class="apart"> Cake for kids   |</a>
+  <a href="" class="apart"> Cake design   |</a>
+  <a href="" class="apart">Cakes for anniversary  |</a> 
+  <a href="" class="apart">cakes for childern birthday  |</a>
+  <a href="" class="apart"> Cakes below 300   |</a> 
+  <a href="" class="apart"> Cake below 500  |</a>
+  <a href="" class="apart"> birthday cakesfor girls  |</a> </p>
+  </div>
+  <div class="grid-item">
+    <h4 class="display-6 text-danger">Trending</h4>
+    <p class="lead p12">
+
+      <a href="" class="apart"> Cake for kids   |</a>
+  <a href="" class="apart"> Cake design   |</a>
+  <a href="" class="apart">Cakes for anniversary  |</a> 
+  <a href="" class="apart">cakes for childern birthday  |</a>
+  <a href="" class="apart"> Cakes below 300   |</a> 
+  <a href="" class="apart"> Cake below 500  |</a>
+  <a href="" class="apart"> birthday cakesfor girls  |</a>
+  </div>  
+  
+  <div class="grid-item">
+    <h1 class="display-6 text-dark"> TESTIMONIALS </h1>
+    <p class="lead p11 ">
+      " Ordered first time and Cake is awesome and was delivered nicely. Thanks a lot FB. Am going to recommend this to all 💖 "
+      <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+      <br>
+       <b style="color:#a42323">  - Archana` Mukherjee </b>
+      </p>
+  </div>
+  <div class="grid-item">
+    <p class="lead p11">" It was good...Just one thing tracking was not updated "      <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+      <br>
+      <br>
+      <b style="color:#a42323"> - Jayasubramaniam</b>  </p>
+
+  </div>
+  <div class="grid-item">
+    <p class="lead p11">" The cake was delicious, but the delivery system is too good as the cake came 1/2 hr before the allotted time 😅. (I didn't have a place to keep the cake) "      <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-regular fa-star-half-stroke text-warning"></i>
+      <b style="color:#a42323">  - Shaurya Dev Pathak</p> </b>
+  </div>  
+   
+</div>
+
+
+
+
+
+
+          
+
+          
+                  
+     
+     
+     
+     
+     
+     
+              <!-- ---------- end of about ------------------------ -->
+                
+              <!-- Footer -->
+             
+ <footer class="bg-dark text-white pt-5 pb-4 llli container-fluid">
+      <div clas="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4  font-weight-bold text-warning">Working hours</h5>
+          <p>
+            Our support available to help you 24 hours a day, seven days a week.
+
+            Shop walk in time ____________
+            9AM - 10PM
+            Phone Order :______________
+            24/7
+            Open on all holidays & week ends
+          </p>
+
+         </div>
+             
+         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">FAQ</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Contact us</a>
+          </p>
+
+
+         </div>
+             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 ">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Usefullink</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">ypur account</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">become an affiliates</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">shipping rate</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">help</a>
+          </p>
+             </div>
+             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 " id="forcontactlink">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contact us</h5>
+              <p>
+                <i class="fas fa-home mr-3"></i>New sithambharam
+                60, RGM Complex, OMR, Karapakkam, Chennai-600097
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> cakepart@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone mr-3"></i>+45 34679954213
+              </p>
+              <p>
+                <i class="fas fa-print mr-3"></i>+01 335 633 767
+              </p>
+             </div>
+           
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+               <div class="col-md-7 col-lg-8">
+                   <p>Copyright @2020 All rights reserved by:
+                   <a href="" style="text-decoration: none;">
+                    <strong class="text-warning">
+                      title name
+                    </strong>
+                  </a>
+                   </p>
+               </div>
+
+               <div class="col-md-5 col-lg-4">
+                <div class="text-center text-md-right">
+                  <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;">
+                        <i class="fab facebook"></i>
+                      </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;">
+                        <i class="fab  fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;">
+                        <i class="fab  fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;">
+                        <i class="fab fa-google-plus"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="" class="btn floating btn-sm text-white" style="font-size: 23px;">
+                        <i class=" fab  fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+               </div>
+
+
+        </div>
+      </div>
+
+    </footer>                
+              
+       
+
+
+      
+      
+
+
+
+
+
+        
+  <!-- ----------footer end div--------------- -->
+
+               
+
+
+
+    
+
+
+                 <script src="https://kit.fontawesome.com/9554fbe1d3.js" crossorigin="anonymous"></script>             
+    <script src="../js/cake.js"></script>
+
+    <!-- <link rel="stylesheet" href="../bootstrap-5.0.2-dist/js/bootstrap.min.js"> -->
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/js/jquery/jquery-3.6.4.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>

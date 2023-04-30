@@ -1,0 +1,264 @@
+*{
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* -------------nav---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+ :root{
+    --lg-font:'kaisei Tokumin',serif;
+    --sm-font:'poppins',sans-serif;
+    --pink:#e5345b;
+  
+   --white:  #ffffff;
+
+
+ }
+ body{
+   
+    font-family: var(--sm-font);
+ }
+ .bg-primary{
+    background-color:var(--pink)!important ;
+    
+ }
+ 
+.navbar{
+    box-shadow: 0 3px 9p 3px rgba(0, 0, 0,0.1);
+   
+    /* background-color: #F5F591; 
+     border-bottom: 2.5px solid  #3c3a3a; */
+   
+    /* border-left: 1rem; */
+    border-right: #3c3a3a;
+    height: 12vh;
+  
+    
+    
+
+}
+
+/* .navbar:hover{
+    background-color: #e5345b;
+} */
+.navbar-brand #icon {
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--white);
+}
+
+.nav-link:hover{
+    color:var(--white)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0,0.05);
+    
+}
+
+/* -------------------------end ------------------- */
+
+  
+
+
+
+/* ------------button1 tag------------------------ */
+ 
+
+
+
+
+
+
+
+/* --------------------text--------------------- */
+#conatmer2{
+    margin-top: 0px;
+    
+}
+ 
+ 
+ 
+ #conatmer2{
+    /* border:12px solid rgb(230, 156, 9); */
+  
+    height: 100vh;
+   
+    background-image: url("https://i.pinimg.com/564x/44/ad/67/44ad67fc7f9eb01f4f8a5a87ef157b52.jpg");
+     background-size:cover;
+     width: auto;
+     
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+
+   
+   
+   
+} 
+
+
+
+ /* ---------------------------end of buton---------------------- */
+#sh1part{
+    position: absolute;
+    top:44.9vh;
+     left:15vh;
+    text-align: center;
+    /* border:12px solid red; */
+  
+    
+    font-family: var(--sm-font);
+}
+.offer1{
+    position:relative;
+    
+    top:59vh;
+    left: 5vh;
+   height: 9vh;
+    text-align: center;
+     border-radius: 23px 23px 23px 23px ;
+     width: 120px;
+    color:black;
+    border:3px solid darkgoldenrod;
+} 
+.offer:hover{
+    background-color: white;
+}
+
+.offer1:hover{
+    background-color: #4CAF50;
+   
+   
+    border-radius: 43px 43px 43px 43px ;
+}
+#offer5:hover{
+      color: #e5345b;
+      /* background-color: white; */
+
+}
+#offer5{
+    text-decoration: none;
+    color:var(--white);
+    align-items: center;
+    justify-content: center;
+    
+} 
+/* --------------------carosuel------------------ */
+ .coloured
+ {
+    /* background-color: rgb(146, 146, 138); */
+    height: auto;
+    filter: blur;
+    background-size: cover;
+    width: auto;
+    /* background-color: #4CAF50; */
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/19/23/cupcakes-1283821__340.jpg");
+    background-size: contain;
+ 
+     
+ }
+
+ #part2{
+    /* border:4px solid red; */
+    position: relative;
+    top:0;
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMC00o90chv0-U3ixZcbQk6j0TYvunaYShQ&usqp=CAU");
+
+}
+
+  /* --------------------end of carosuel----------------- */
+
+
+
+
+            /* ------------button1 tag------------------------ */
+   
+   /* -----------------------click event end------------- */
+   
+   #part1:hover{
+    cursor: pointer;
+    transform:scale(0.9 ,0.9)
+    
+   }
+   .bun{
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgb(178, 69, 69);
+    color: white;
+   }
+   .a1{
+    color:antiquewhite;
+    text-decoration: none;
+   }
+   
+
+   #a1:hover{
+    background-color: #4CAF50;
+    color:antiquewhite
+   }
+
+
+   /* ---------------------feedback--------------------- */
+  */
+ .p11{
+    /* border:6px solid yellow; */
+    /* height: auto; */
+    background-color: #dfd7d7;
+    border-radius: 25px 25px 25px 25px;
+    /* text-align: center; */
+    
+    /* padding: 2px; */
+    
+   
+   
+  }
+  .aboutus{
+    
+    height: 20vh;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+  }
+  .p11:hover{
+    box-shadow: 5px 5px 8px 5px rgb(134, 134, 137) ;
+    
+    
+  }
+  .p12{
+     height: auto;
+     /* border:12px solid red; */
+      width: auto;
+     /* text-align: center; */
+     
+  }
+  
+  /* anchor tags-------------------------- */
+ 
+  .apart{
+    text-decoration: none;
+   
+   
+  }
+  /* --------------------end of feedback----------------- */
+
+
+  /* ------------------------footer---------------- */
+.llli{
+ /* border:6px solid red; */
+ width: auto;
+
+}
+  
+   
